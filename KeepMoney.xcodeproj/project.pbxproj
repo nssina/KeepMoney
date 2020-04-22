@@ -9,23 +9,57 @@
 /* Begin PBXBuildFile section */
 		D3E9D3D124506AF400B50BBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D3D024506AF400B50BBB /* AppDelegate.swift */; };
 		D3E9D3D324506AF400B50BBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D3D224506AF400B50BBB /* SceneDelegate.swift */; };
-		D3E9D3D624506AF400B50BBB /* KeepMoney.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D3D424506AF400B50BBB /* KeepMoney.xcdatamodeld */; };
 		D3E9D3D824506AF400B50BBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D3D724506AF400B50BBB /* ContentView.swift */; };
 		D3E9D3DA24506AF800B50BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E9D3D924506AF800B50BBB /* Assets.xcassets */; };
 		D3E9D3DD24506AF800B50BBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E9D3DC24506AF800B50BBB /* Preview Assets.xcassets */; };
 		D3E9D3E024506AF800B50BBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E9D3DE24506AF800B50BBB /* LaunchScreen.storyboard */; };
+		D3E9D3EB24506D8A00B50BBB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D3EA24506D8A00B50BBB /* Utils.swift */; };
+		D3E9D3ED24506E0F00B50BBB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D3EC24506E0F00B50BBB /* Extensions.swift */; };
+		D3E9D3F624506F1900B50BBB /* PieChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D3F224506F1900B50BBB /* PieChartCell.swift */; };
+		D3E9D3F724506F1900B50BBB /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D3F324506F1900B50BBB /* PieChartView.swift */; };
+		D3E9D3F824506F1900B50BBB /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D3F424506F1900B50BBB /* Helpers.swift */; };
+		D3E9D3F924506F1900B50BBB /* PieChartRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D3F524506F1900B50BBB /* PieChartRow.swift */; };
+		D3E9D3FD24506F2D00B50BBB /* LogsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D3FA24506F2D00B50BBB /* LogsTabView.swift */; };
+		D3E9D3FE24506F2D00B50BBB /* LogFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D3FB24506F2D00B50BBB /* LogFormView.swift */; };
+		D3E9D3FF24506F2D00B50BBB /* LogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D3FC24506F2D00B50BBB /* LogListView.swift */; };
+		D3E9D40424506F3A00B50BBB /* FilterCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D40024506F3900B50BBB /* FilterCategoriesView.swift */; };
+		D3E9D40524506F3A00B50BBB /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D40124506F3900B50BBB /* SearchBar.swift */; };
+		D3E9D40624506F3A00B50BBB /* CategoryImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D40224506F3900B50BBB /* CategoryImageView.swift */; };
+		D3E9D40724506F3A00B50BBB /* SelectSortOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D40324506F3A00B50BBB /* SelectSortOrderView.swift */; };
+		D3E9D40A24506F4B00B50BBB /* DashboardTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D40824506F4A00B50BBB /* DashboardTabView.swift */; };
+		D3E9D40B24506F4B00B50BBB /* CategoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D40924506F4B00B50BBB /* CategoryRowView.swift */; };
+		D3E9D40E24506F6600B50BBB /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D40C24506F6600B50BBB /* Sort.swift */; };
+		D3E9D40F24506F6600B50BBB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D40D24506F6600B50BBB /* Category.swift */; };
+		D3E9D4122450718D00B50BBB /* ExpenseTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3E9D4102450718D00B50BBB /* ExpenseTracker.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D3E9D3CD24506AF400B50BBB /* KeepMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeepMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E9D3D024506AF400B50BBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3E9D3D224506AF400B50BBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D3E9D3D524506AF400B50BBB /* KeepMoney.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeepMoney.xcdatamodel; sourceTree = "<group>"; };
 		D3E9D3D724506AF400B50BBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D3E9D3D924506AF800B50BBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3E9D3DC24506AF800B50BBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3E9D3DF24506AF800B50BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3E9D3E124506AF800B50BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3E9D3EA24506D8A00B50BBB /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		D3E9D3EC24506E0F00B50BBB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D3E9D3F224506F1900B50BBB /* PieChartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartCell.swift; sourceTree = "<group>"; };
+		D3E9D3F324506F1900B50BBB /* PieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		D3E9D3F424506F1900B50BBB /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		D3E9D3F524506F1900B50BBB /* PieChartRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartRow.swift; sourceTree = "<group>"; };
+		D3E9D3FA24506F2D00B50BBB /* LogsTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogsTabView.swift; sourceTree = "<group>"; };
+		D3E9D3FB24506F2D00B50BBB /* LogFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogFormView.swift; sourceTree = "<group>"; };
+		D3E9D3FC24506F2D00B50BBB /* LogListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogListView.swift; sourceTree = "<group>"; };
+		D3E9D40024506F3900B50BBB /* FilterCategoriesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCategoriesView.swift; sourceTree = "<group>"; };
+		D3E9D40124506F3900B50BBB /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		D3E9D40224506F3900B50BBB /* CategoryImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryImageView.swift; sourceTree = "<group>"; };
+		D3E9D40324506F3A00B50BBB /* SelectSortOrderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSortOrderView.swift; sourceTree = "<group>"; };
+		D3E9D40824506F4A00B50BBB /* DashboardTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTabView.swift; sourceTree = "<group>"; };
+		D3E9D40924506F4B00B50BBB /* CategoryRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRowView.swift; sourceTree = "<group>"; };
+		D3E9D40C24506F6600B50BBB /* Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
+		D3E9D40D24506F6600B50BBB /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D3E9D4112450718D00B50BBB /* ExpenseTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExpenseTracker.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +94,13 @@
 			children = (
 				D3E9D3D024506AF400B50BBB /* AppDelegate.swift */,
 				D3E9D3D224506AF400B50BBB /* SceneDelegate.swift */,
-				D3E9D3D724506AF400B50BBB /* ContentView.swift */,
+				D3E9D3E724506D1D00B50BBB /* Views */,
+				D3E9D3E824506D2300B50BBB /* Helpers */,
+				D3E9D3E924506D2900B50BBB /* Models */,
+				D3E9D4102450718D00B50BBB /* ExpenseTracker.xcdatamodeld */,
 				D3E9D3D924506AF800B50BBB /* Assets.xcassets */,
 				D3E9D3DE24506AF800B50BBB /* LaunchScreen.storyboard */,
 				D3E9D3E124506AF800B50BBB /* Info.plist */,
-				D3E9D3D424506AF400B50BBB /* KeepMoney.xcdatamodeld */,
 				D3E9D3DB24506AF800B50BBB /* Preview Content */,
 			);
 			path = KeepMoney;
@@ -76,6 +112,77 @@
 				D3E9D3DC24506AF800B50BBB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3E9D3E724506D1D00B50BBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3E9D3D724506AF400B50BBB /* ContentView.swift */,
+				D3E9D3EE24506EB400B50BBB /* Common Views */,
+				D3E9D3EF24506EBE00B50BBB /* Logos */,
+				D3E9D3F024506EC300B50BBB /* Dashboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D3E9D3E824506D2300B50BBB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D3E9D3EA24506D8A00B50BBB /* Utils.swift */,
+				D3E9D3EC24506E0F00B50BBB /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D3E9D3E924506D2900B50BBB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3E9D40D24506F6600B50BBB /* Category.swift */,
+				D3E9D40C24506F6600B50BBB /* Sort.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3E9D3EE24506EB400B50BBB /* Common Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3E9D3F124506EE300B50BBB /* SwiftUICharts */,
+				D3E9D40224506F3900B50BBB /* CategoryImageView.swift */,
+				D3E9D40024506F3900B50BBB /* FilterCategoriesView.swift */,
+				D3E9D40124506F3900B50BBB /* SearchBar.swift */,
+				D3E9D40324506F3A00B50BBB /* SelectSortOrderView.swift */,
+			);
+			path = "Common Views";
+			sourceTree = "<group>";
+		};
+		D3E9D3EF24506EBE00B50BBB /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				D3E9D3FB24506F2D00B50BBB /* LogFormView.swift */,
+				D3E9D3FC24506F2D00B50BBB /* LogListView.swift */,
+				D3E9D3FA24506F2D00B50BBB /* LogsTabView.swift */,
+			);
+			path = Logos;
+			sourceTree = "<group>";
+		};
+		D3E9D3F024506EC300B50BBB /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				D3E9D40924506F4B00B50BBB /* CategoryRowView.swift */,
+				D3E9D40824506F4A00B50BBB /* DashboardTabView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		D3E9D3F124506EE300B50BBB /* SwiftUICharts */ = {
+			isa = PBXGroup;
+			children = (
+				D3E9D3F424506F1900B50BBB /* Helpers.swift */,
+				D3E9D3F224506F1900B50BBB /* PieChartCell.swift */,
+				D3E9D3F524506F1900B50BBB /* PieChartRow.swift */,
+				D3E9D3F324506F1900B50BBB /* PieChartView.swift */,
+			);
+			path = SwiftUICharts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,10 +256,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E9D3F924506F1900B50BBB /* PieChartRow.swift in Sources */,
+				D3E9D3FF24506F2D00B50BBB /* LogListView.swift in Sources */,
+				D3E9D3FE24506F2D00B50BBB /* LogFormView.swift in Sources */,
+				D3E9D40724506F3A00B50BBB /* SelectSortOrderView.swift in Sources */,
+				D3E9D3F724506F1900B50BBB /* PieChartView.swift in Sources */,
+				D3E9D3ED24506E0F00B50BBB /* Extensions.swift in Sources */,
+				D3E9D3FD24506F2D00B50BBB /* LogsTabView.swift in Sources */,
+				D3E9D40624506F3A00B50BBB /* CategoryImageView.swift in Sources */,
 				D3E9D3D124506AF400B50BBB /* AppDelegate.swift in Sources */,
+				D3E9D40524506F3A00B50BBB /* SearchBar.swift in Sources */,
+				D3E9D4122450718D00B50BBB /* ExpenseTracker.xcdatamodeld in Sources */,
+				D3E9D3F824506F1900B50BBB /* Helpers.swift in Sources */,
+				D3E9D40F24506F6600B50BBB /* Category.swift in Sources */,
+				D3E9D40B24506F4B00B50BBB /* CategoryRowView.swift in Sources */,
 				D3E9D3D324506AF400B50BBB /* SceneDelegate.swift in Sources */,
 				D3E9D3D824506AF400B50BBB /* ContentView.swift in Sources */,
-				D3E9D3D624506AF400B50BBB /* KeepMoney.xcdatamodeld in Sources */,
+				D3E9D3EB24506D8A00B50BBB /* Utils.swift in Sources */,
+				D3E9D3F624506F1900B50BBB /* PieChartCell.swift in Sources */,
+				D3E9D40E24506F6600B50BBB /* Sort.swift in Sources */,
+				D3E9D40A24506F4B00B50BBB /* DashboardTabView.swift in Sources */,
+				D3E9D40424506F3A00B50BBB /* FilterCategoriesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +413,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_ASSET_PATHS = "\"KeepMoney/Preview Content\"";
+				DEVELOPMENT_TEAM = LA66LW5978;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = KeepMoney/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,7 +434,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_ASSET_PATHS = "\"KeepMoney/Preview Content\"";
+				DEVELOPMENT_TEAM = LA66LW5978;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = KeepMoney/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -346,13 +474,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D3E9D3D424506AF400B50BBB /* KeepMoney.xcdatamodeld */ = {
+		D3E9D4102450718D00B50BBB /* ExpenseTracker.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D3E9D3D524506AF400B50BBB /* KeepMoney.xcdatamodel */,
+				D3E9D4112450718D00B50BBB /* ExpenseTracker.xcdatamodel */,
 			);
-			currentVersion = D3E9D3D524506AF400B50BBB /* KeepMoney.xcdatamodel */;
-			path = KeepMoney.xcdatamodeld;
+			currentVersion = D3E9D4112450718D00B50BBB /* ExpenseTracker.xcdatamodel */;
+			path = ExpenseTracker.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
